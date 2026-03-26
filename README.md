@@ -1,6 +1,6 @@
 # CBC Padding Oracle Demo
 
-This folder contains a local educational demo for a cryptography course project on **CBC padding oracle attacks**.
+This folder contains a simple demo on **CBC padding oracle attacks**.
 
 ## Files
 
@@ -33,19 +33,3 @@ python padding_oracle_demo.py --message "Attack at dawn."
 2. A deliberately insecure oracle that reveals only whether padding is valid.
 3. A byte-by-byte attack that recovers plaintext without the secret key.
 4. A comparison with AES-GCM to illustrate why authenticated encryption blocks this style of attack.
-
-## Suggested GitHub placement
-
-A clean repo layout would be:
-
-```text
-project-root/
-  README.md
-  code/
-    padding_oracle_demo.py
-    requirements.txt
-  report/
-    interim_report.tex
-```
-
-Then link the GitHub repo or the specific `code/` folder in your report.
